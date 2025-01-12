@@ -35,7 +35,7 @@ import androidx.compose.ui.unit.dp
 import com.dkproject.compose_codelab.R
 import com.dkproject.compose_codelab.ui.theme.Compose_CodeLabTheme
 
-class BusinessCard: ComponentActivity() {
+class BusinessCard : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
@@ -54,17 +54,25 @@ fun BusinessCardScreen() {
         verticalArrangement = Arrangement.Center,
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
-        Image(painter = painterResource(R.drawable.android_logo), "",
-            modifier = Modifier.size(120.dp))
+        Image(
+            painter = painterResource(R.drawable.android_logo), "",
+            modifier = Modifier.size(120.dp)
+        )
         Text("Jennifer Doe", style = MaterialTheme.typography.headlineLarge)
         Spacer(modifier = Modifier.padding(bottom = 6.dp))
-        Text("Android Developer Extraordinaire", textAlign = TextAlign.Center, color = Color(0xFF3ddc84))
+        Text(
+            "Android Developer Extraordinaire",
+            textAlign = TextAlign.Center,
+            color = Color(0xFF3ddc84)
+        )
     }
 
     Column(
         verticalArrangement = Arrangement.Bottom,
         horizontalAlignment = Alignment.CenterHorizontally,
-        modifier = Modifier.fillMaxWidth().padding(bottom = 24.dp)
+        modifier = Modifier
+            .fillMaxWidth()
+            .padding(bottom = 24.dp)
     ) {
         ContactRow(
             icon = Icons.Default.Call,
