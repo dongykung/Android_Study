@@ -27,6 +27,16 @@
         <activity android:name=".Chapter2.TipCalculator.TipCalculatorActivity"
             android:exported="true"
             android:theme="@style/Theme.Compose_CodeLab">
+        </activity>
+
+        <activity android:name=".Chapter3.Courses.CoursesActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Compose_CodeLab">
+        </activity>
+
+        <activity android:name=".Chapter3.Woof.WoofActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Compose_CodeLab">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
