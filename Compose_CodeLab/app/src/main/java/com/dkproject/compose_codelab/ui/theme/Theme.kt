@@ -274,7 +274,12 @@ fun Compose_CodeLabTheme(
         darkTheme -> darkScheme
         else -> lightScheme
     }
-
+    val view = LocalView.current
+    if (!view.isInEditMode) {
+        SideEffect {
+            setUpEdgeToEdge(view, darkTheme)
+        }
+    }
     MaterialTheme(
         colorScheme = colorScheme,
         typography = Typography,

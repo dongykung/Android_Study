@@ -37,6 +37,11 @@
         <activity android:name=".Chapter3.Woof.WoofActivity"
             android:exported="true"
             android:theme="@style/Theme.Compose_CodeLab">
+        </activity>
+
+        <activity android:name=".Chapter3.Hero.HeroActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Compose_CodeLab">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
