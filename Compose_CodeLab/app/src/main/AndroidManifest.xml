@@ -52,6 +52,11 @@
         <activity android:name=".Chapter4.unscramble.UnScrambleActivity"
             android:exported="true"
             android:theme="@style/Theme.Compose_CodeLab">
+        </activity>
+
+        <activity android:name=".Chapter4.CupCake.CupCakeActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Compose_CodeLab">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
