@@ -54,7 +54,10 @@ dependencies {
     implementation(libs.androidx.lifecycle.viewModel)
     implementation(libs.androidx.navigation.compose)
     implementation(libs.serialization.json)
+    implementation(libs.androidx.windowSize)
+
     testImplementation(libs.junit)
+    testImplementation(libs.kotlinx.coroutines.test)
 
     androidTestImplementation(libs.androidx.navigation.test)
     androidTestImplementation(libs.androidx.junit)

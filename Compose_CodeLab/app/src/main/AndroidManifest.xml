@@ -57,6 +57,16 @@
         <activity android:name=".Chapter4.CupCake.CupCakeActivity"
             android:exported="true"
             android:theme="@style/Theme.Compose_CodeLab">
+        </activity>
+
+        <activity android:name=".Chapter4.Reply.ReplyActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Compose_CodeLab">
+        </activity>
+
+        <activity android:name=".Chapter5.RaceTracker.RaceTrackerActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Compose_CodeLab">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

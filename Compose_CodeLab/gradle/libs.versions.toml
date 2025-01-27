@@ -13,6 +13,7 @@ viewModel = "2.6.1"
 navigation = "2.8.5"
 serialization = "2.0.21"
 serialization-json = "1.7.3"
+coroutines-test = " 1.6.4"
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -33,6 +34,8 @@ androidx-lifecycle-viewModel = {group = "androidx.lifecycle", name = "lifecycle-
 androidx-navigation-compose = {group = "androidx.navigation", name = "navigation-compose", version.ref = "navigation"}
 androidx-navigation-test = {group = "androidx.navigation", name = "navigation-testing", version.ref = "navigation"}
 serialization-json = {group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "serialization-json"}
+androidx-windowSize = {group = "androidx.compose.material3", name = "material3-window-size-class"}
+kotlinx-coroutines-test = {group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutines-test"}
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
