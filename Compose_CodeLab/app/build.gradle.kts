@@ -55,7 +55,10 @@ dependencies {
     implementation(libs.androidx.navigation.compose)
     implementation(libs.serialization.json)
     implementation(libs.androidx.windowSize)
-
+    implementation(libs.retrofit)
+    implementation(libs.retrofit.converter.json)
+    implementation(libs.okhttp)
+    implementation(libs.coil)
     testImplementation(libs.junit)
     testImplementation(libs.kotlinx.coroutines.test)
 

@@ -14,6 +14,10 @@ navigation = "2.8.5"
 serialization = "2.0.21"
 serialization-json = "1.7.3"
 coroutines-test = " 1.6.4"
+retrofit = "2.11.0"
+retrofit-serialization = "1.0.0"
+okhttp = "4.11.0"
+coil = "2.4.0"
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -36,6 +40,11 @@ androidx-navigation-test = {group = "androidx.navigation", name = "navigation-te
 serialization-json = {group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "serialization-json"}
 androidx-windowSize = {group = "androidx.compose.material3", name = "material3-window-size-class"}
 kotlinx-coroutines-test = {group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "coroutines-test"}
+retrofit = {group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit"}
+retrofit-converter-scalars = {group = "com.squareup.retrofit2", name = "converter-scalars", version.ref = "retrofit"}
+retrofit-converter-json = {group = "com.jakewharton.retrofit", name = "retrofit2-kotlinx-serialization-converter", version.ref = "retrofit-serialization"}
+okhttp = {group = "com.squareup.okhttp3", name = "okhttp", version.ref = "okhttp"}
+coil = {group = "io.coil-kt", name = "coil-compose", version.ref = "coil"}
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
